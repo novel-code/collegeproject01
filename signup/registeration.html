@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="regstyle.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <title>Registeration form</title>
+  </head>
+  <body>
+    <form action="#">
+      <div class="reg-container">
+        <h2 class="headings">Sign Up</h2>
+        <div class="signupdivs">
+          <label class="tag1" for="mobile">Phone Number</label>
+          <input
+            placeholder="Enter Phone Number"
+            class="one"
+            type="tel"
+            name="mobile"
+            id="mobile"
+            tabindex="1"
+            autocomplete="off"
+            value=""
+            required
+          />
+        </div>
+        <div class="signupdivs">
+          <label class="tag2" for="name">Name</label>
+          <input
+            placeholder="Enter Name"
+            class="two"
+            type="text"
+            name="name"
+            id="name"
+            tabindex="2"
+            autocomplete="off"
+            value=""
+            required
+          />
+        </div>
+        <div class="signupdivs">
+          <label class="tag3" for="email">Email</label>
+          <input
+            placeholder="Enter Email"
+            class="three"
+            type="email"
+            name="email"
+            id="email"
+            tabindex="3"
+            autocomplete="off"
+            value=""
+            required
+          />
+        </div>
+        <div class="signupdivs">
+          <label class="tag4" for="password">Password</label>
+          <input
+            placeholder="Enter Password"
+            class="four"
+            type="password"
+            name="password"
+            id="password"
+            tabindex="4"
+            autocomplete="off"
+            value=""
+            required
+          />
+        </div>
+        <div class="signupdivs">
+          <label class="tag5" for="psw-repeat">Reapeat Password</label>
+          <input
+            placeholder="Reapeat Password"
+            class="five"
+            type="password"
+            name="password"
+            id="rpassword"
+            tabindex="5"
+            autocomplete="off"
+            value=""
+            required
+          />
+        </div>
+      </div>
+      <div class="submitbtn">
+        <a href="#" class="button button-ghost" type="submit">Continue</a>
+      </div>
+      <div class="tandc">
+        By creating an account, I accept the
+        <a href="/terms-and-conditions">Terms &amp; Conditions</a>
+      </div>
+      <h3 class="headings">or</h3>
+    </form>
+    <form action="#">
+      <div class="login-container">
+        <h2 class="headings">Log In</h2>
+        <div class="signupdivs">
+          <label class="tag6" for="uname">Email</label>
+          <input
+            type="email"
+            placeholder="Enter Email"
+            name="emaillogin"
+            required
+          />
+        </div>
+        <div class="signupdivs">
+          <label class="tag7" for="psw">Password</label>
+          <input
+            type="password"
+            placeholder="Enter Password"
+            name="psw"
+            required
+          />
+        </div>
+      </div>
+      <div class="loginbtn">
+        <a href="#" class="button button-ghost" type="submit">Login</a>
+      </div>
+    </form>
+  </body>
+</html>
