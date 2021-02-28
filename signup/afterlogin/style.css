@@ -16,6 +16,13 @@ body {
   overflow-x: hidden;
 }
 
+@media all and (max-width: 600px) {
+  .all,
+  .order {
+    flex-direction: column;
+  }
+}
+
 .one-two h3 {
   font-weight: lighter;
 }
