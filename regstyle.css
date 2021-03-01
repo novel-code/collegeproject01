@@ -29,10 +29,19 @@ body {
   text-align: center;
 }
 
-.tandc {
+.tandc,
+.forgotpass {
   margin: auto;
   font-size: 17px;
   text-align: center;
+}
+
+.forgotpass {
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: none;
 }
 
 input[type="text"],
